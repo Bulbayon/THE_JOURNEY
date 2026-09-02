@@ -100,10 +100,10 @@ void prism_trianglebase()
 
     //input for volume
     std::cout << "Please enter the height of the prism: " << '\n';
-    std::cin >> height;
+    std::cin >> prism_height;
 
     //calculation for prism
-    final_result = height*area_result;
+    final_result = prism_height*area_result;
 
     //output
     std::cout << "The result is: " << final_result << '\n';
@@ -190,6 +190,7 @@ main(){
 // 1:57 AM !! When declaring a fraction, using just a / b will just make it a regular integer 
 //ex. 4/3 is 1 cause integer trunk the decimals
 // pi needs to be more accurate pi = 3.141592653589793
+// 3:13 AM !! Bug fix on height -> prism_height
 
 // FIX
 // 1:58 AM !! Do a.0 / b.0 to make it a double
